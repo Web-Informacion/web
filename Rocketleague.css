@@ -1,0 +1,16 @@
+*{
+    color: white;
+}
+
+
+
+a:hover{
+    font-size: 125%;
+    color: orange;
+    background: skyblue;
+}
+
+body img {
+    box-shadow: 15px -15px 15px;
+}
+
