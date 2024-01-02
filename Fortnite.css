@@ -1,0 +1,13 @@
+header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    background-color: #0097F2;
+    box-shadow: 10px 10px 10px;
+    width: 50%
+    size: 100%;
+}
