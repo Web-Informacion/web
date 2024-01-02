@@ -1,0 +1,13 @@
+ol {
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+}
+a:hover{
+    font-size: 125%;
+    color: green;
+    background: skyblue;
+}
