@@ -1,13 +1,64 @@
 header {
-    
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
 }
-header img {
-    background-color: #7500f2;
-    box-shadow: 10px 10px 10px;
-    width: 50%
-    size: 100%;
+
+.img1 {
+    display: flex;
+    width: 10%;
+    box-shadow: 0px 0px 8px 5px black;
+}
+
+.martitrol {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.muerte1312 {
+    display: flex;
+}
+
+.general {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 95%;
+}
+
+.img2 {
+    display: flex;
+    width: 15%;
+    height: 100%x;
+   
+    
+
+}
+
+.ol1 {
+    padding-right: 2%;
+    
+}
+.texto1{
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: cursive;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    flex-direction: column;
+    text-align: center;
+}
+h1{
+    font-size: xxx-large;
+}
+.mrtitrl{
+    font-family: math;
 }
