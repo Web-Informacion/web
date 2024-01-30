@@ -1,13 +1,58 @@
-ol {
-    color: red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+a:hover {
+    font-size: 120%;
+    color: blue;
+
+}
+
+.ps4 { 
+    justify-content: space-between;
     align-items: center;
-    font-size: larger;
+    display: flex;
+    width: 5%;
 }
-a:hover{
-    font-size: 125%;
-    color: green;
-    background: skyblue;
+.pstxt{
+    background-color: black;
 }
+
+.xbox {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    width: 5%;
+}
+.xboxtxt{
+    background-color: green;
+}
+
+.rocket {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 5%;
+}
+.rockettxt{
+    background-color: blue
+}
+
+
+.fortnite {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 5%;
+}
+.fortnitetxt{
+    background-color: aqua;
+}
+body {
+
+    background-color: blanchedalmond;
+
+    .gradiente {
+      background: linear-gradient(to left, blanchedalmond, rgb(173, 238, 248));
+      width: 100%;
+      height: 50%;
+    } 
+
+  }
