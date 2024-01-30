@@ -1,27 +1,63 @@
-       .portada{
-    color: white;
-}
+       .portada {
+           color: white;
+       }
 
 
 
-a:hover{
-    font-size: 125%;
-    color: orange;
-    background: skyblue;
-}
+       a:hover {
+           font-size: 125%;
+           color: orange;
+           background: skyblue;
+       }
 
-body img {
-    box-shadow: 15px -15px 15px;
-}
+       body img {
+           box-shadow: 15px -15px 15px;
+       }
 
 
-.hybridimage{
-    color: #000000;
-}
+       .hybridimage {
+           color: #000000;
+       }
 
-.breakout{
-    color: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+       .breakout {
+           color: #000000;
+       }
+
+       .octaneimage {
+           color: #000000;
+       }
+
+
+       .moveimagehibrid {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           font-size: 150%;
+           font-family: fantasy;
+       }
+
+
+       .moveimagebreakout {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           font-size: 150%;
+           font-family: fantasy;
+       }
+
+       .moveimageoctane {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           font-size: 150%;
+           font-family: fantasy;
+       }
+
+
+
+
+       .general1 {
+           display: flex;
+           margin-top: 8%;
+           justify-content: space-around;
+       }
