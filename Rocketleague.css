@@ -1,7 +1,13 @@
        .portada {
            color: white;
+           display: flex;
+
        }
 
+       body {
+           background-color: #000000;
+           color: white;
+       }
 
 
        a:hover {
