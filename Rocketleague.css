@@ -1,79 +1,95 @@
-       .portada {
-           color: white;
-           display: flex;
+    .textgeneral {
+        font-size: 110%;
+    }
+   
 
-       }
 
-       .portada1 {
-           display: flex;
-           align-items: flex-start;
-           justify-content: center;
-       }
+    
 
-       body {
-           background-color: #000000;
-           color: white;
-       }
-       h1{
+    .portada1 {
+        color: transparent;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    body {
+        
+        color: white;
+    }
+
+    h1 {
         display: flex;
         justify-content: center;
-       }
+    }
 
 
-       a:hover {
-           font-size: 125%;
-           color: orange;
-           background: skyblue;
-       }
+    a:hover {
+        font-size: 125%;
+        color: orange;
+        background: skyblue;
+    }
 
-       body img {
-           box-shadow: 15px -15px 15px;
-       }
-
-
-       .hybridimage {
-           color: #000000;
-       }
-
-       .breakout {
-           color: #000000;
-       }
-
-       .octaneimage {
-           color: #000000;
-       }
+    body img {
+        box-shadow: 15px -15px 15px;
+    }
 
 
-       .moveimagehibrid {
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           font-size: 150%;
-           font-family: fantasy;
-       }
+    .hybridimage {
+        color: transparent;
+    }
+
+    .breakout {
+        color: transparent;
+    }
+
+    .octaneimage {
+        color: transparent;
+    }
 
 
-       .moveimagebreakout {
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           font-size: 150%;
-           font-family: fantasy;
-       }
-
-       .moveimageoctane {
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-           font-size: 150%;
-           font-family: fantasy;
-       }
+    .moveimagehibrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 150%;
+        font-family: fantasy;
+    }
 
 
+    .moveimagebreakout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 150%;
+        font-family: fantasy;
+    }
 
+    .moveimageoctane {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 150%;
+        font-family: fantasy;
+    }
 
-       .general1 {
-           display: flex;
-           margin-top: 8%;
-           justify-content: space-around;
-       }
+    .general1 {
+        display: flex;
+        margin-top: 8%;
+        justify-content: space-around;
+    }
+
+    @media (prefers-color-scheme: light) {
+        body{
+            background: white;
+            color:black;
+        }
+    }
+
+    @media (prefers-color-scheme: dark){
+        body{
+            background: black;
+            color: white;
+        }
+    }
+    
