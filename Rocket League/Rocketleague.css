@@ -1,0 +1,124 @@
+    /*Esto es el general que lleva lo que sería todo el texto y imagenes en general de mi apartado */
+    .textgeneral {
+        font-size: 110%;
+
+    }
+
+    /* apartado background,body,etc.*/
+    .portada1 {
+        color: transparent;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+
+    body {
+
+        color: white;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    a:hover {
+        font-size: 125%;
+        color: orange;
+        background: skyblue;
+    }
+
+    /* imágenes de la web*/
+    body img {
+        box-shadow: 15px -15px 15px;
+    }
+
+
+    .hybridimage {
+        color: transparent;
+    }
+
+    .breakout {
+        color: transparent;
+    }
+
+    .octaneimage {
+        color: transparent;
+    }
+
+
+    .moveimagehibrid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 150%;
+        font-family: fantasy;
+    }
+
+
+    .moveimagebreakout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 150%;
+        font-family: fantasy;
+    }
+
+    .moveimageoctane {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 150%;
+        font-family: fantasy;
+    }
+
+    /*Este apartado es todo sobre los puntos y texto de la página  */
+    .general1 {
+        display: flex;
+        margin-top: 2%;
+        justify-content: space-around;
+    }
+
+    .rotacion {
+        margin-top: 3%;
+    }
+
+    .roles {
+        margin-top: 3%;
+    }
+
+    .fisicas {
+        margin-top: 3%;
+    }
+
+    .camara {
+        margin-top: 5%;
+        font-size: large;
+    }
+
+    /*Solo funciona el margin y font. */
+    .subtexto {
+        display: flex;
+        align-items: center;
+        margin-top: 3%;
+        font: icon;
+        justify-content: center;
+
+    }
+
+    /*Esto es para cambiar el color de la página según el dispositivo tenga las preferencias en ajustes de "dark o white" */
+    @media (prefers-color-scheme: light) {
+        body {
+            background: white;
+            color: black;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        body {
+            background: black;
+            color: white;
+        }
+    }
